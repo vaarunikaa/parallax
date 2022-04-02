@@ -1,0 +1,108 @@
+body{
+	margin: 0%;
+    background-color: #f4f4f4;
+  
+}
+.top{
+	margin: 0%;
+    background-image: url("bg.jpg"); 
+    opacity: 0.7;
+    background-attachment: fixed;
+    height: 700px; 
+    background-position: center;   
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    
+
+}
+
+h3{
+	margin: 0%;
+	/*float: left;*/
+	text-align: center;
+	/*color: white;*/
+
+	letter-spacing: 5px;
+	line-height: 1.1;
+    padding:300px;
+    font-family: "Sans-serif", "Courier New", monospace;
+    font-size: 50px;
+    transition: transform 0.2s;
+    color: black;
+    opacity: 1;
+    /*animation: movetoright 3s ease-in-out infinite;*/
+}
+
+.section{
+	text-align: center;
+    padding: 50px 80px;
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.barath{
+
+	margin: 0%;
+    background-image: url("two.jpg"); 
+    opacity: 0.7;
+    background-attachment: fixed;
+    height: 600px; 
+    background-size: cover;
+    background-position: center;   
+    background-repeat: no-repeat; 
+        
+}
+
+.kathak{
+
+	margin: 0%;
+    background-image: url("three.jpg"); 
+    opacity: 0.7;
+    background-attachment: fixed;
+    height: 600px; 
+    background-size: cover;
+    background-position: center;   
+    background-repeat: no-repeat; 
+     
+    
+
+
+}
+.kathakali{
+
+	margin: 0%;
+    background-image: url("one.jpg"); 
+    opacity: 0.7;
+    background-attachment: fixed;
+    height: 400px; 
+    background-size: cover;
+    background-position: center;   
+    background-repeat: no-repeat; 
+     
+    
+
+
+}
+
+
+/*@keyframes movetoright{
+      0% {
+        transform: translateX(0px);
+      }
+      100% {
+        transform: translateX(300px);
+      }
+    }*/
+/*.fonts:hover{
+	transform: scale(1.1);
+	font-size: 30px;
+	
+}*/
+/*.container{
+	display: flex;
+}*/
+@media(max-width:568px){
+  .top, .barath, .kathak, .kathakali{
+    background-attachment:scroll;
+  }
+}
